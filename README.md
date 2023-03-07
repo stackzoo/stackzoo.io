@@ -18,6 +18,11 @@ $ bundle
 
 ## Usage
 
+To run the website locally run:
+
+```
+bundle exec jekyll s
+```
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
 ## License
