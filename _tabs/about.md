@@ -7,7 +7,7 @@ order: 4
 
 # ABOUT US
 
-*sTackZoo* is an *independent* Cloud Native Consultancy company with a strong focus on open source technologies.
+*sTackZoo* is an *independent* Cloud Native Consultancy company (even if we prefer community) with a strong focus on open source technologies.
 <br/>
 ![Alt Text](https://media.giphy.com/media/WTO8QA0mX2Cfw5vhkp/giphy.gif)
 <br/>
