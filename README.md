@@ -1,4 +1,5 @@
 # StackZoo Company Website
+[![Build and Deploy](https://github.com/stackzoo/stackzoo.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/stackzoo/stackzoo.io/actions/workflows/pages-deploy.yml)
 
 This repo contains the source code for the *StackZoo* company website, hosted <a href="https://www.stackzoo.io">here</a>.
 
