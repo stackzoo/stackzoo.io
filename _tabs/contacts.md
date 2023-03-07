@@ -5,6 +5,6 @@ order: 4
 ---
 
 # Contact Us
-We are based in Italy but are a full remote company.
+We are a full remote company based in Italy.
 
 Reach us at  <a href="mailto:info@stackzoo.io">info@stackzoo.io</a>
