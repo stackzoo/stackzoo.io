@@ -1,6 +1,6 @@
 # StackZoo Company Website
 
-This repo contains the source code for the *StackZoo* company website, hosted here.
+This repo contains the source code for the *StackZoo* company website, hosted <a href="https://www.stackzoo.io">here</a>.
 
 ## Prerequisites
 
