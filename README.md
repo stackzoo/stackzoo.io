@@ -7,22 +7,13 @@ This repo contains the source code for the *StackZoo* company website, hosted <a
 
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
 
-## Installation
-
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
-```
 
 ## Usage
 
-To run the website locally run:
+To run the website locally, clone this repo and run:
 
 ```
-bundle exec jekyll s
+bundle && bundle exec jekyll s
 ```
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
