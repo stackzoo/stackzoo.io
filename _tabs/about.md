@@ -9,7 +9,7 @@ order: 4
 
 *sTackZoo* is an *independent* Cloud Native Consultancy company (even if we prefer the word community) with a strong focus on open source technologies.
 <br/>
-![Alt Text](https://media.giphy.com/media/WTO8QA0mX2Cfw5vhkp/giphy.gif)
+<img src="https://media.giphy.com/media/WTO8QA0mX2Cfw5vhkp/giphy.gif" width="800" height="600" />
 <br/>
 We are a full remote community with no affiliations nor partnerships.
 <br/>
