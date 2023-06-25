@@ -8,7 +8,7 @@ tags: [security, best practices, kubernetes]   # TAG names should always be lowe
 <table style="width: 100%;">
   <tr>
     <td style="vertical-align: top;">
-      <img src="images/2023-06-25-container-ship.jpeg" alt="Image" style="width: 350px; height: 450px">
+      <img src="/assets/img/posts/2023-06-25-container-ship.jpeg" alt="Image" style="width: 350px; height: 450px">
     </td>
     <td style="vertical-align: top; padding-left: 10px;">
       <p><br><br> <br><br> <h2>As more organizations adopt Kubernetes for container orchestration <br> ensuring robust security measures becomes paramount.<br>  
