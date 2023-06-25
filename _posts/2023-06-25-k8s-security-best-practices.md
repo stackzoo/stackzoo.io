@@ -5,7 +5,7 @@ categories: ['Kubernetes']
 tags: [security, best practices, kubernetes]   # TAG names should always be lowercase
 ---
 
-![container-ship](../assets/img/posts/2023-06-25-container-ship.jpeg)  
+![container-ship](/assets/img/posts/2023-06-25-container-ship.jpeg)  
 <br>
 As more organizations adopt Kubernetes for container orchestration ensuring robust security measures becomes paramount.  
 Kubernetes provides a powerful platform for deploying and managing applications but it also introduces potential vulnerabilities.  
