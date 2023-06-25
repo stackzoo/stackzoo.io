@@ -12,7 +12,7 @@ Kubernetes provides a powerful platform for deploying and managing applications 
 To safeguard your cluster and protect your valuable data it's crucial to implement effective security practices.  
 
 
-In this blog post, we'll explore some essential Kubernetes security best practices that can help you build a resilient and secure environment.</p>
+In this blog post, we'll explore some essential Kubernetes security best practices that can help you build a resilient and secure environment.  
 
 
 1. Regularly Update Kubernetes and Container Images:
