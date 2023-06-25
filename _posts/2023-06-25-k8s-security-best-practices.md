@@ -5,22 +5,14 @@ categories: ['Kubernetes']
 tags: [security, best practices, kubernetes]   # TAG names should always be lowercase
 ---
 
-<table style="width: 100%;">
-  <tr>
-    <td style="vertical-align: top;">
-      <img src="/assets/img/posts/2023-06-25-container-ship.jpeg" alt="Image" style="width: 350px; height: 450px">
-    </td>
-    <td style="vertical-align: top; padding-left: 10px;">
-      <p><br><br> <br><br> <h2>As more organizations adopt Kubernetes for container orchestration <br> ensuring robust security measures becomes paramount.<br>  
-Kubernetes provides a powerful platform for deploying and managing applications <br> <b>but it also introduces potential vulnerabilities</b><br>  
-To safeguard your cluster and protect your valuable data <br> it's crucial to implement effective security practices.<h2><br><br>  
-    </td>
-  </tr>
-</table>
+![container-ship](../assets/img/posts/2023-06-25-container-ship.jpeg)  
+<br>
+As more organizations adopt Kubernetes for container orchestration ensuring robust security measures becomes paramount.  
+Kubernetes provides a powerful platform for deploying and managing applications but it also introduces potential vulnerabilities.  
+To safeguard your cluster and protect your valuable data it's crucial to implement effective security practices.  
 
 
 In this blog post, we'll explore some essential Kubernetes security best practices that can help you build a resilient and secure environment.</p>
-
 
 
 1. Regularly Update Kubernetes and Container Images:
@@ -29,14 +21,14 @@ Regularly update your cluster to benefit from the latest security patches and bu
 <br>
 <br>
 
-2. Implement Role-Based Access Control (RBAC):
+1. Implement Role-Based Access Control (RBAC):
 Kubernetes RBAC provides a granular approach to controlling access to cluster resources.  
 Assign appropriate roles and permissions to users, groups, or service accounts based on the principle of least privilege.  
 Regularly review and revoke unnecessary permissions to minimize the risk of unauthorized access. 
 <br>
 <br>
 
-3. Secure Container Images:  
+1. Secure Container Images:  
 Container images should be built securely to reduce the attack surface. Follow these practices:  
 - Use trusted base images from reputable sources.
 - Regularly update your base images to include the latest security patches.
@@ -45,7 +37,7 @@ Container images should be built securely to reduce the attack surface. Follow t
 <br>
 <br>
 
-4. Network Security:  
+1. Network Security:  
 Protecting the network communication within your Kubernetes cluster is crucial.  
 Consider these security practices:  
 - Isolate your cluster by leveraging network policies to control traffic between pods.
@@ -54,7 +46,7 @@ Consider these security practices:
 <br>
 <br>
 
-5. Secrets Management:  
+1. Secrets Management:  
 Effectively managing secrets, such as API keys, passwords, and certificates, is vital to maintaining a secure Kubernetes environment.  
 Employ these strategies:  
 - Avoid hardcoding secrets within the container images; use Kubernetes Secrets or external secret management systems.
@@ -63,7 +55,7 @@ Employ these strategies:
 <br>
 <br>
 
-6. Monitor and Audit:  
+1. Monitor and Audit:  
 Implement robust monitoring and auditing mechanisms to detect and respond to security incidents promptly. Consider the following practices:  
 - Enable logging and monitoring for your Kubernetes cluster and applications.
 - Centralize log collection and leverage security information and event management (SIEM) tools for analysis.
@@ -71,13 +63,13 @@ Implement robust monitoring and auditing mechanisms to detect and respond to sec
 <br>
 <br>
 
-7. Regularly Perform Security Assessments and Penetration Testing:  
+1. Regularly Perform Security Assessments and Penetration Testing:  
 Periodically assess the security posture of your Kubernetes cluster by conducting security assessments and penetration testing.  
 This helps identify vulnerabilities and weaknesses in your environment, allowing you to address them proactively.
 <br>
 <br>
 
-8. Educate and Train Your Team:  
+1. Educate and Train Your Team:  
 Invest in educating and training your team on Kubernetes security best practices.  
 Promote a culture of security awareness and provide resources to enhance their knowledge of secure development and deployment practices.
 <br>
