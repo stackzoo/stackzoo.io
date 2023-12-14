@@ -1,11 +1,11 @@
 # StackZoo Company Website
 [![Build and Deploy](https://github.com/stackzoo/stackzoo.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/stackzoo/stackzoo.io/actions/workflows/pages-deploy.yml)
 
-This repo contains the source code for the *StackZoo* community website, hosted <a href="https://www.stackzoo.io/about">here</a>.
+This repo contains the source code for the *StackZoo* community website, hosted <a href="https://www.stackzoo.io">here</a>.
 
 ## Prerequisites
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
+- [hugo](https://gohugo.io/)
 
 
 ## Usage
@@ -13,9 +13,9 @@ Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installat
 To run the website locally, clone this repo and run:
 
 ```
-bundle && bundle exec jekyll s
-```
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+hugo && hugo server  
+```  
+
 
 ## License
 

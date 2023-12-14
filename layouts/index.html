@@ -1,0 +1,34 @@
+{{ define "header" }}
+<style>
+  .center img {
+    max-width: 100%;
+    height: auto;
+    animation: fadeIn 3s ease-in-out, scaleUp 3s ease-in-out; /* Adjust durations and timing functions as needed */
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes scaleUp {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+</style>
+<p class="center">
+  <img src="assets/stackzoo.png" alt="stackzoo" />
+</p>
+{{ end }}
+
+{{ define "content" }}
+  {{ .Content }}
+{{ end }}

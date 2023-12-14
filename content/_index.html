@@ -1,0 +1,126 @@
+---
+title: StackZoo
+custom_css: index.scss
+---
+
+<style>
+    #btc-image, #ln-image {
+        max-width: 30%;
+        height: auto;
+        transition: transform 0.5s ease-in-out;
+        animation: bounce 5s ease-in-out infinite; /* Add animation property */
+    }
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0); /* Bounce at the top and bottom */
+        }
+        40% {
+            transform: translateY(-30px); /* Move up during the bounce */
+        }
+        60% {
+            transform: translateY(-15px); /* Move down during the bounce */
+        }
+    }
+
+    #ln-image {
+        animation-delay: -2s; /* Delay the start of this image's animation by 2 seconds */
+    }
+
+    #btc-image {
+        margin-right: 10px;
+        animation-direction: alternate; /* Alternate the bounce direction for this image */
+    }
+
+</style>
+
+<div class="section grey" id="philosophy">
+    <div class="container">
+        <div id="philosophy-text">
+            <h1 class="small-title center-text mega-margin">Embrace Bitcoin & Lightning</h1>
+            <p class="center">
+                <img id="btc-image" src="assets/btc.svg" alt="bitcoin" />
+                <img id="ln-image" src="assets/ln.svg" alt="lightning" />
+            </p>
+            <br/>
+            <br/>
+            <h2><p class="center-text mega-margin">We are on a mission to make Bitcoin accessible to everyone.</h2></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <div class="small-container" id="emoji-cards">
+        <div class="emoji-card">
+            <img src="assets/fire.svg" alt="Fire emoji" class="emoji-img center-margin large-margin">
+            <h1 class="center-text medium-margin">Heat</h1>
+            <p class="center-text">Heat means work.<br/>Hard workt and continuous improvement are what drive the community forward</p>
+        </div>
+
+        <div class="emoji-card">
+            <img src="assets/sun.svg" alt="Sun emoji" class="emoji-img center-margin large-margin">
+            <h1 class="center-text medium-margin">Light</h1>
+            <p class="center-text">Light means visibility. <br/>Just like the Bitcoin protocol, we too embrace openness and transparency.</p>
+        </div>
+
+        <div class="emoji-card">
+            <img src="assets/heart.svg" alt="Pride heart emoji" class="emoji-img center-margin large-margin">
+            <h1 class="center-text medium-margin">Love</h1>
+            <p class="center-text">Love means hope.<br/>We believe that Bitcoin represents a force for good and a world-changing idea.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Explore Projects -->
+
+<div class="section" id="explore-projects">
+    <div class="container">
+        <div class="explore-node">
+            <h1 class="small-title mega-margin">Explore Offerings</h1>
+            <p class="mega-margin">In which way we can help you as an individual or business owner to get started with Bitcoin or scale your existing Bitcoin infrastructure ?</p>
+            <a href="/projects/" class="Button Button--primary Button--large">View All Offerings</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="section" id="explore-nostr">
+    <div class="container">
+        <div class="explore-notes">
+            <h1 class="small-title mega-margin">Explore Notes</h1>
+            <p class="mega-margin">Nostr 𓅦 is a new open protocol to buil decentralised and censorship-resistant social media networks. <br/> As with all other freedom technologies we support it and we are active on it.</p>
+            <a href="https://coracle.social/people/nprofile1qqsg97uty4wvaa8rm28mnpvhjhadv9ajtluy7jc0hky4dfrkp6p2vmgpzfmhxue69uhhqatjwpkx2urpvuhx2ucpz3mhxue69uhhyetvv9ujuerpd46hxtnfduq3vamnwvaz7tmjv4kxz7fwdehhxarj9e3xzmny28cx5v" class="Button Button--primary Button--large">View All Notes</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section" id="lightning">
+    <div class="container">
+        <div class="explore-notes">
+            <br/>
+            <h1 class="small-title mega-margin">Enter Lightning</h1>
+            <p class="mega-margin">Lightning⚡ is a layer 2 scaling solution for Bitcoin. <br/> We maintain our own lightning node, you are welcome to open lightning channels with us!</p>
+            <a href="https://amboss.space/node/0356db1a21dbecf14c3a3781719c9c9c4e1eee3826b67a34619c7dbe34bcafaf96" class="Button Button--primary Button--large">View Node Infos</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Follow Us StackZoo -->
+
+<div class="grey section" id="follow-us">
+    <div class="container">
+        <div class="center-text" id="open-source-text">
+            <h1 class="small-title mega-margin open-source-title"> <a target="_blank"
+                    rel="noopener" href="https://github.com/stackzoo">Follow Us on Github</a></h1>
+        </div>
+    </div>
+</div>
+
